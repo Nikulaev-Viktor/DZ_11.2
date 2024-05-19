@@ -9,3 +9,9 @@ def capitalize():
     proposal = "everyone sees the world in one's own way"
     print(proposal.capitalize())
 
+def minus():
+    """Пытаюсь вызвать конфликт"""
+    d = 15
+    f = 10
+    g = d - f
+    print(g)
